@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/carousel.css">
+<link rel="stylesheet" href="css/vkladki.css">
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/table.css">
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Top">^</button>
+  <!--Scroll JS-->
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <!-- Navbar -->
+  <div class="navbar">
+    <a href="index.html"><img src="img/medalGold.png" height="52"></a>
+    <a href="index.html#about">Новости</a>
+    <a href="history.html">История</a>
+    <a href="#politik">Политика</a>
+  </div>
+  <h2><font color="gold">Нормативы Золотого Стандарта</font></h2>
+
+  <table>
+    <tr>
+      <th>Подтягивания</th>
+      <th>Канаты</th>
+      <th>Отжимания</th>
+    </tr>
+    <tr>
+      <td>12 + 10с</td>
+      <td>2(без) + 2(с)</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>14 + 10с</td>
+      <td>2(без) + 1(с)</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>16 + 12с</td>
+      <td>3(без) + 1(с)</td>
+      <td>28</td>
+    </tr>
+  </table>
+  <br>
+   <center><font color="green"><h1>Pirate&Policy</h1></font></center>
+   <div class="slideshow-container">
+    <h3> Сайт не должен нарушать авторские права. Могут быть расположены фото от разных издателей. Сайт <font color="red"><b>НИЧЕГО не</b></font> пропагандирует и рекомендует занятия спортом и здоровый образ жизни. </h3>
+    <h3>Есть жалобы, грустно. Отпраьте заявку на <a href="malito:dehcorporation@ro.ru">почту</a>.</h3>
+</body>
+</html> 
+
